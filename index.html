@@ -1,15 +1,233 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>SESS Internal Meeting</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<style>
+		#cus-h1 {
+			font-size: 60px;
+			margin: auto;
+			text-align: center;
+		}
+
+		#qrdiv {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin-top: 48px;
+		}
+
+		#qritem {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.qrlogo {
+			width: 300px;
+			height: 300px;
+		}
+
+		#wantyou {
+			width: 300px;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#flexrow {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		#flexcol {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		#cus_ul li {
+			font-size: 40px;
+			padding: 16px;
+		}
+
+		#boldredspan {
+			font-weight: bold;
+			color: red;
+		}
+
+		#grayspan {
+			color: #A1A1A1;
+		}
+	</style>
 </head>
 
 <body>
-    <h1>SESS</h1>
+	<div class="reveal">
+		<img style="width:8vw; padding-left: 100px" src="SESS.PNG" alt="">
+		<div class="slides">
+			<section>
+				<div style="display: flex; flex-direction: row">
+					<img style="height: 400px; width: 400px" src="SESS.png" alt="" />
+					<hr />
+					<div id="flexcol" >
+						<h1 id="cus-h1">SESS Internal Meeting</h1>
+						<p style="margin-top: -60px;">Feb 26, 2023</p>
+	
+					</div>
+					
+				</div>
+			</section>
+			<section>
+				<h3>Current Structure</h3>
+				<hr/>
+				<ul id="cus_ul">
+					<li><span style="font-weight: bolder;">President:</span> Yiyuan Dong (Dayson)</li>
+					<li><span style="font-weight: bolder;">Vice President:</span> Kannav Sethi</li>
+					<li><span style="font-weight: bolder;">Treasurer:</span> Dennis Audu</li>
+					<li><span style="font-weight: bolder;">Faculty Advisor:</span> Jacky Lau, Vida Movahedi</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Funding</h3>
+				<hr/>
+				<ul id="cus_ul">
+					<li>$450 per semeter</li>
+					<li>Budgets will not carry over each fiscal year</li>
+					<li>Financial year: May 1st - April 30th</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Hosting Events</h3>
+				<hr/>
+				<ul id="cus_ul">
+					<li>Complete event proposal 15 days before the proposed date</li>
+					<li>Submit budget, room or table booking request along with the proposal</li>
+					<li>Must be approved by SSF</li>
+					<li>Better do poll first, estimate the number of attendees before estimating the budget</li>
+					<li>If the budget changes, must inform the treasurer, who then will inform SSF</li>
+				</ul>
+			</section>
+
+				
+			<section>
+				<h3>Meetings</h3>
+				<hr/>
+				<ul id="cus_ul">
+					<li>Biweekly or as neccessary</li>
+					<li>Notes will be taken during the meeting</li>
+					<li>Summary will be sent out after meeting</li>
+					<li>Find a time that works for everyone</li>
+				</ul>
+			</section>
+		
+			<section>
+				<h3>Future planning</h3>
+				<hr/>
+				<ul id="cus_ul">
+					<li>One more event this semester (resume workshop?)</li>
+					<li>Summer break: competition, define constitution, other events</li>
+					<li>Beginning of Fall semester: competition demo</li>
+					<li>Become a memeber society of <span id="boldredspan">ESSCO</span> <span id="grayspan">(Engineering
+						Student Societies' Council of Ontario)</span> and <span id="boldredspan">CFES</span> <span id="grayspan">(Canadian
+							Federation of Engineering Students)</span></li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Other planning</h3>
+				<hr/>
+				<ul id="cus_ul">
+					<li>Build a website and member management system</li>
+					<li>You name it...</li>
+			</section>
+
+			<section>
+				<section> 
+					<h2>Define roles and positions</h2>
+					<hr/>
+					<ul id="cus_ul">
+						<li>Academic & Service Director: Kevin & Arian</li>
+						<li>Communication Director: George</li>
+						<li>Social Director: Sushant</li>
+						<li>Cohort Representative: Nigel </li>
+						<li>TBD: Divyanshu</li>
+					</ul>
+				</section>
+				<section>
+					Academic & Service Director: Kevin & Arian
+					<hr />
+					<ul id="cus_ul">
+						<li>Communication between students and faculty</li>
+						<li>Host academic events & trainings </li>
+					</ul>
+				</section>
+
+				<section>
+					Communication Director: George
+					<hr />
+					<ul id="cus_ul">
+						<li>Create and post contents regularly on social pages</li>
+						<li>Manage social media account</li>
+						<li>Responsible for communications between SESS and members, other clubs and societies.</li>
+					</ul>
+				</section>
+				<section>
+					Social Director: Sushant
+					<hr />
+					<ul id="cus_ul">
+						<li>Plan & host social events</li>
+						<li>Help create and post contents on social medias</li>
+						<li>Promote club & club events on social media</li>
+					</ul>
+				</section>
+				<section>Cohort Representative: Nigel </section>
+			</section>
+
+			
+			<section>
+				<h2>Links</h2>
+				<hr/>
+				<ul id="cus_ul">
+					<li> <a href="./SSF_Policy.pdf">SSF Club Policy</a> </li>
+					<li><a href="./sample_application.pdf">Sample application form to CFES</a></li>
+				</ul>
+
+			</section>
+
+	
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			controls: true,
+			autoAnimate: true,
+			slideNumber: true,
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
 </body>
 
 </html>
