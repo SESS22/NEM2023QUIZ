@@ -132,7 +132,7 @@ body.wrong {
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.72);
   margin: 0;
-  padding: 0px;
+  padding: 2px;
   position: relative;
   width: 100%;
   color: #000;
@@ -163,7 +163,7 @@ body.wrong {
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.72);
     margin: 0;
-    padding: 0px;
+    padding: 2px;
     position: relative;
     width: 100%;
     color: #000;
