@@ -59,6 +59,12 @@ body.wrong {
 }
 
 @media screen and (max-width: 767px) {
+  *, *::before, *::after {
+    box-sizing: border-box;
+    font-family:Nunito;
+    color: white;
+  }
+  
   .container {
     background: rgba(217, 214, 228, 0.12);
     border-radius: 10px;
