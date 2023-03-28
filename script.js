@@ -281,7 +281,7 @@ const questionData = [
     //NOTE ------S16---------- MATERIAL ENGINEERING
     {facts: "Superalloys are alloys with the ability to operate at a very high melting point.",
         questions:[  
-            {question: "Superalloys are alloys with the ability to operate at a very high melting point.", 
+            {question: "What is the defining characteristic of superalloys?", 
                 answers: [
                     {text: "Conductivity", correct: false},
                     {text: "Hardness", correct: false},
@@ -312,10 +312,10 @@ const questionData = [
     //NOTE ------S19---------- COMPUTER ENGINEERING
     {facts: "ARM is the most well known reduced instruction set computer architecture, with a strong emphasis on efficiency.",
         questions:[  
-            {question: "", 
+            {question: "ARM is a CISC architecture.", 
                 answers: [
-                    {text: "False", correct: true},
-                    {text: "True", correct: false}]
+                    {text: "True", correct: false},
+                    {text: "False", correct: true}]
             },
             {question: "Modern x86-64 and ARM processors have no inherent architectural differences regarding power efficiency.", 
                 answers: [
