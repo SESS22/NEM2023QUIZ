@@ -1,6 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    color: white;
   }
   
   :root {
@@ -20,6 +21,7 @@
     align-items: center;
     /* background-color: hsl(var(--hue), 100%, 20%); */
     background-color: hsl(var(--hue), 80%, 30%);
+    
   }
   
   body.correct {
@@ -31,39 +33,62 @@
   }
   
   .question-body {
-    font-size: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
   }
 
   .container {
-    width: 80%;
-    /* max-width: 80%; */
-    background-color: white;
-    border-radius: 5px;
-    padding: 50px;
-    box-shadow: 0 0 10px 2px;
+    background: rgba(217, 214, 228, 0.12);
+    border-radius: 10px;
+    padding: 5px 20px 50px;
+    width: auto;
+    max-width: 500px;
+    margin: 0 auto 214px;
+    text-align: center;
   }
   
   .btn-grid {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: repeat(2, auto);
-    gap: 30px;
-    margin: 20px 0;
+    gap: 20px;
+    margin: 15px 0px 0px 0px;
+    padding-top: 30px;
+    
   }
   
   .btn {
     --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border: 0;
     background-color: hsl(var(--hue), 100%, 50%);
+    display: flex;
+    align-items: center;
     border-radius: 5px;
-    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.72);
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    color: #000;
+    font-size: 1.5rem;
+    justify-content: center;
+  }
+
+  .btn:hover {
+    color: #fff;
+    background-color: rgb(201, 42, 42);
     color: white;
-    outline: none;
-    font-size: 5rem;
+    box-shadow: rgba(255, 255, 255, 0.082) 0 8px 15px;
+    transform: translateY(-2px);
   }
   
-  .btn:hover {
-    border-color: black;
+  .btn:active {
+    box-shadow: none;
+    transform: translateY(0);
   }
+  
+
   
   .btn.correct {
     --hue: var(--hue-correct);
@@ -75,17 +100,39 @@
   }
   
   .start-btn, .next-btn {
-    font-size: 5rem;
+    font-size: 1.5rem;
+    
     font-weight: bold;
     padding: 20px 30px;
+
+    /* background-image: linear-gradient(135deg, #e22929, #615454); */
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    padding: 4px; 
+    width: 7em;
+    transition: all 0.2s;
+    
+  }
+
+
+  .start-btn, .next-btn :hover {
+    color: #fff;
+    transition: delay 3ms;;
   }
   
   .controls {
     display: flex;
     justify-content: center;
+    margin-top: 15px;
     align-items: center;
+
   }
   
   .hide {
     display: none;
   }
+
+
